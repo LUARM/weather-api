@@ -1,0 +1,5 @@
+# .gitignore
+
+# Ignore files containing API keys
+.env
+node_modules
