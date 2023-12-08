@@ -1,5 +1,23 @@
+* {
+  margin: 0;
+}
+
+/* .Grass-Indicator{
+  width: 80vh;
+  height: auto;
+
+}
+ */
+
 .App {
   text-align: center;
+  height: 100vh;
+  background-color: #707eac;
+  background: linear-gradient(
+    to bottom,
+    #82cde4,
+    #cccccc
+  ); /* Adjust colors as needed */
 }
 
 .App-logo {
