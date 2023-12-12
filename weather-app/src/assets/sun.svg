@@ -1,0 +1,23 @@
+<svg width="323" height="316" viewBox="0 0 323 316" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 3">
+<g id="Frame 2">
+<g id="sun" filter="url(#filter0_f_34_1201)">
+<path d="M316.68 152.047C323.296 231.602 261.793 302.126 179.309 309.566C96.8248 317.007 24.5952 258.547 17.9792 178.992C11.3633 99.4369 72.8664 28.913 155.35 21.4724C237.834 14.0318 310.064 72.4921 316.68 152.047Z" fill="black" fill-opacity="0.3"/>
+</g>
+</g>
+<g id="Frame 1">
+<ellipse id="sun_2" cx="149.957" cy="144.544" rx="149.957" ry="144.544" transform="matrix(0.995956 -0.0898419 0.0828757 0.99656 0 26.9448)" fill="url(#paint0_linear_34_1201)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_34_1201" x="12.4918" y="15.834" width="309.675" height="299.371" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2.5" result="effect1_foregroundBlur_34_1201"/>
+</filter>
+<linearGradient id="paint0_linear_34_1201" x1="149.957" y1="0" x2="149.957" y2="289.089" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFD358"/>
+<stop offset="1" stop-color="#FA6C21"/>
+</linearGradient>
+</defs>
+</svg>

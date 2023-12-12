@@ -22,10 +22,10 @@ const POWER_PATHS = [
   "M483.979 356.932L464.237 248.745",
 ];
 
-export const GrassIndicator = () => (
+export const GrassIndicator = ({ width, height }) => (
   <svg
-    width={1217}
-    height={662}
+    width={width || 1217}
+    height={height || 662}
     viewBox="0 0 1217 662"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
