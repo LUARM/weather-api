@@ -11,6 +11,7 @@ app.use(cors());
 // Use the imported API key
 const openWeatherMapApiKey = process.env.OPENWEATHERMAP_API_KEY;
 
+
 app.get('/weather', async (req, res) => {
   try {
     const { city } = req.query; // Get the city from the query parameter

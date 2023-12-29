@@ -2,6 +2,10 @@ import React, { useState } from "react";
 import "./App.css";
 import { GrassIndicator } from "./components/grassIndicator";
 import sun from "./assets/sun.svg";
+import cityInfoBlock from "./assets/cityInfoBlock.svg";
+import newsViewport from "./assets/newsViewport.svg";
+import sunrise from "./assets/sunrise.svg";
+import sunset from "./assets/sunset.svg";
 
 function App() {
   const [city, setCity] = useState("");
@@ -54,6 +58,7 @@ function App() {
                 onChange={(e) => setCity(e.target.value)}
                 required
                 placeholder="Enter City..."
+                className="city-input"
               />
               <button className="search-button"></button>
             </div>
@@ -77,6 +82,44 @@ function App() {
         <div className="grass-indicator-wrapper">
           <GrassIndicator width={1200} height={700} />
         </div>
+      </div>
+      <div className="city-info-wrapper">
+   
+      <img src={cityInfoBlock} className="city-info-block" />
+
+      <div className="city-block-container">
+      <div className="city-weather-block">
+        <div className="city-weather-left">
+          <text className="city-weather-label">Temperature:</text>
+          <div className="city-temp-box">
+            <text className="city-temp-low">67°</text>
+            <div class="vlTemp" />
+            <text className="city-temp-high">82°</text>
+           </div>
+          <text className="city-weather-label">Humidity:</text>
+          <text className="city-humidity">64%</text>
+          <div class="sunrise-box" >
+          <img src={sunrise} className="sunrise-image" />
+
+          </div>
+        </div>
+        <div className="city-weather-right">
+          <text className="city-weather-label">Wind Speed:</text>
+          <text className="city-wind-speed">6 mph</text>
+          <text className="city-weather-label">Cloudiness:</text>
+          <text className="city-cloudiness">32%</text>
+          <div class="sunrise-box" >
+          <img src={sunrise} className="sunrise-image" />
+
+          </div>
+        </div>
+      </div>
+      <div class="vl" />
+      <div className="city-news-block">
+      <img src={newsViewport} className="city-news-border" />
+      <text className="city-news-text">The Calm after the storm: seattle...</text>
+      </div>
+      </div>
       </div>
     </div>
   );
