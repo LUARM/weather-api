@@ -22,7 +22,7 @@ const POWER_PATHS = [
   "M483.979 356.932L464.237 248.745",
 ];
 
-export const GrassIndicator = ({ width, height }) => (
+export const GrassIndicator = ({ width, height, colors }) => (
   <svg
     width={width || 1217}
     height={height || 662}
@@ -46,7 +46,7 @@ export const GrassIndicator = ({ width, height }) => (
               repeatDelay: 3,
             }}
             d={path}
-            stroke="#888F36"
+            stroke={colors.grass1}
             strokeWidth={11}
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -68,7 +68,7 @@ export const GrassIndicator = ({ width, height }) => (
               repeatDelay: 3,
             }}
             d={path}
-            stroke="#6C7323"
+            stroke={colors.grass2}
             strokeWidth={10}
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -90,7 +90,7 @@ export const GrassIndicator = ({ width, height }) => (
               repeatDelay: 3,
             }}
             d={path}
-            stroke="#969C48"
+            stroke={colors.grass3}
             strokeWidth={12}
             strokeLinecap="round"
             strokeLinejoin="round"

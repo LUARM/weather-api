@@ -238,6 +238,26 @@
   position: absolute;
 }
 
+.sunrise-image {
+  border: 1px solid blueviolet;
+  height: 100px;
+}
+
+.sun-time {
+  color: #736758;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sunrise-box {
+  border: 1px solid rgb(255, 0, 0);
+  height: 160px;
+  display: flex;
+ justify-content: center;
+ 
+ flex-direction: column;
+}
+
 .temp-bar-image {
   border: 1px solid blueviolet;
   margin-left: 2.5rem;
